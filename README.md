@@ -2,6 +2,15 @@
 ### 1.大数据采集技术
 ##### 1.数据库采集
 ##### 2.系统日志收集
+1. [Learned Perceptual Image Patch Similarity (LPIPS) metric](#1-learned-perceptual-image-patch-similarity-lpips-metric)<br>
+   a. [Basic Usage](#a-basic-usage) If you just want to run the metric through command line, this is all you need.<br>
+   b. ["Perceptual Loss" usage](#b-backpropping-through-the-metric)<br>
+   c. [About the metric](#c-about-the-metric)<br>
+2. [Berkeley-Adobe Perceptual Patch Similarity (BAPPS) dataset](#2-berkeley-adobe-perceptual-patch-similarity-bapps-dataset)<br>
+   a. [Download](#a-downloading-the-dataset)<br>
+   b. [Evaluation](#b-evaluating-a-perceptual-similarity-metric-on-a-dataset)<br>
+   c. [About the dataset](#c-about-the-dataset)<br>
+   d. [Train the metric using the dataset](#d-using-the-dataset-to-train-the-metric)<br>
 ##### 3.网络数据采集
 ##### 4.感知设备数据
 ### 2.大数据预处理技术
