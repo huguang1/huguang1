@@ -2,15 +2,12 @@
 ### 1.大数据采集技术
 ##### 1.数据库采集
 ##### 2.系统日志收集
-1. [Learned Perceptual Image Patch Similarity (LPIPS) metric](#1-learned-perceptual-image-patch-similarity-lpips-metric)<br>
-   a. [Basic Usage](#a-basic-usage) If you just want to run the metric through command line, this is all you need.<br>
-   b. ["Perceptual Loss" usage](#b-backpropping-through-the-metric)<br>
-   c. [About the metric](#c-about-the-metric)<br>
-2. [Berkeley-Adobe Perceptual Patch Similarity (BAPPS) dataset](#2-berkeley-adobe-perceptual-patch-similarity-bapps-dataset)<br>
-   a. [Download](#a-downloading-the-dataset)<br>
-   b. [Evaluation](#b-evaluating-a-perceptual-similarity-metric-on-a-dataset)<br>
-   c. [About the dataset](#c-about-the-dataset)<br>
-   d. [Train the metric using the dataset](#d-using-the-dataset-to-train-the-metric)<br>
+1. Flume日志采集的基本概念<br>
+   a. Flume 的核心是把数据从数据源（Source）收集过来，再将收集到的数据送到指定的目的地（Smk），为了保证输送的过程一定成功，在送到目的地之前，会先缓存数据到管道（Channel）,待数据真正到达目的地后，Flume 再删除缓存的数据.<br>
+2. Flume使用方法<br>
+   a. Flume的用法简单，主要是编写一个用户配置文件。在配置文件中描述source,channel和sink的具体实现，而后运行一个agent实例。
+
+
 ##### 3.网络数据采集
 ##### 4.感知设备数据
 ### 2.大数据预处理技术
