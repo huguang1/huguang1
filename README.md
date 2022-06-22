@@ -56,7 +56,9 @@
 2. Hadoop 生态圈，HDFS，MapReduce，HBase，Hive，Mahout，Pig，Zookeeper，Flume。<br>
 3. Hadoop 版本演进。<br>
 4. Hadoop 发行版本。<br>
-##### 1.使用hadoop存储结构化和非结构化数据
+##### 5.HDFS分布式文件系统简介
+1. 分布式文件系统是一种允许文件通过网络在多台主机上进行分享的文件系统，可让多台机器上的多用户分享文件和存储空间。
+2. 一类是 NameNode，又叫“名称结点”；另一类是 DataNode，又叫“数据结点”。这两类结点分别承担 Master 和 Worker 具体任务的执行。
 ##### 1.使用hadoop存储结构化和非结构化数据
 ##### 1.使用hadoop存储结构化和非结构化数据
 ### 4.大数据处理
